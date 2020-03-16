@@ -6,7 +6,6 @@ let electronicUrl = 'https://nshopvn.com/';
   const page = await browser.newPage();
   await page.goto(electronicUrl);
 
-  // get nshop details
   let electronicData = await page.evaluate(() => {
     let products = [];
     let product_wrapper = document.querySelectorAll('.product-wrapper');
