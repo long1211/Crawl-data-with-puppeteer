@@ -25,4 +25,5 @@ let electronicUrl = 'https://nshopvn.com/';
   });
 
    console.log(electronicData);
+   await browser.close();
 })();
